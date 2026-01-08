@@ -50,7 +50,7 @@ Now make a directory under the source root, say it's
 Then, execute the following command
 
 ```shell
-cmake .. -D Ninja && ninja
+cmake .. -G Ninja && ninja
 ```
 ![CMake Ninja](pictures/cmake.png)
 ![CMake After Compile](pictures/ninja_after_compile.png)
